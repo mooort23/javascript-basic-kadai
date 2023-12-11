@@ -2,13 +2,13 @@ holidays = ["正月","成人の日","建国記念日","天皇誕生日","春分�
 
 
 //for文
-for (let i = 1; i <= 16; i++) {
+for (let i = 0; i <= 16; i++) {
   console.log(holidays[i]);
 }
 
 
 //while文
-let i = 1
+let i = -1
 
 while (i <= 16) {
   i++;
